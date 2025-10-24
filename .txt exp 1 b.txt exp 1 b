@@ -1,0 +1,21 @@
+/*
+name: Aaradhya korgaonkar
+UIN 251M026
+Class mech
+div F2
+*/
+#include<stdio.h>
+int main()
+{
+int P,C,M,Sum;
+float Avg;
+printf("enter marks of Physics Chemistry Maths");
+scanf("%d %d %d", &P, &C, &M);
+Sum=P+C+M;
+printf("Sum of PCM is:%d \n", Sum);
+Avg=Sum/3;
+printf("Avgerage of PCM is:%.3f \n", Avg);
+(Avg>=50.000)?printf("person is eligible for admission"):printf("person is not eligible for admission");
+
+return 0;
+}
