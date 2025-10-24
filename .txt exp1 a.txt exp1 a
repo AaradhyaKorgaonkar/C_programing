@@ -1,0 +1,16 @@
+/*
+name aaradhya korgaonkar
+UIN 251M026
+Class FE Mechanical
+Div F2
+*/
+#include <stdio.h>
+int main()
+{
+printf("\t My name is: Aaradhya \b korgaonkar \n ");
+printf("\t My age is:17\n");
+printf("\t class is : FE Mechanical\n");
+printf("\t division is: F2\n");
+printf("\t My UIN is 251M026\n");
+return 0;
+}
